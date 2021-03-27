@@ -70,12 +70,7 @@ $( document ).ready(function() {
                     };
     $( "#iconEmail" ).on( "click", function() {
         createSwalIcons(email);    
-    });
-    $( "#iconTelegram" ).on( "click", function() {
-        createSwalIcons(telegram);    
-    });
-    
-    
+    });    
     $( ".copyToClipboard" ).on( "click", function() {
         copyTextToClipboard(this.previousSibling.textContent);
     });
